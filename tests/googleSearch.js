@@ -3,7 +3,7 @@ require("chromedriver");
  
 async function example(){
  
-       var searchString = "En uygun";
+       var searchString = "İzmir";
  
        //To wait for browser to build and launch properly
        let driver = await new Builder().forBrowser("chrome").build();
@@ -19,7 +19,7 @@ async function example(){
         //Verify the page title and print it
         var title = await driver.getTitle();
 
-        if (title === "En uygun - Google'da Ara") {
+        if (title === "İzmir - Google'da Ara") {
             console.log('Title is:',title);
             console.log('Test Başarılı');
         } else {
