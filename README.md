@@ -10,5 +10,5 @@ npm install
 Run test file
 ```
 cd tests
-node test.js
+node googleSearch.js
 ```
