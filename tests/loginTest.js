@@ -9,7 +9,7 @@ let tab = browser.forBrowser("chrome").build();
 // Get the credentials from the JSON file
 let { email, pass } = require("./credentials.json");
 
-// Step 1 - Opening the geeksforgeeks sign in page
+// Step 1 - Opening the gittigidiyor sign in page
 let tabToOpen =
 	tab.get("https://www.gittigidiyor.com/uye-girisi?s=1");
 tabToOpen
